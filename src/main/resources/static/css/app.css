@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
@@ -12,7 +12,6 @@ h1 {
     color: #444;
 }
 
-/* Container */
 .container {
     max-width: 800px;
     margin: 0 auto;
@@ -22,7 +21,6 @@ h1 {
     padding: 20px;
 }
 
-/* Form Styles */
 form {
     margin: 20px 0;
 }
@@ -42,14 +40,12 @@ input[type="text"], select {
     font-size: 14px;
 }
 
-/* Error Messages */
 .error {
     color: red;
     font-size: 14px;
     margin-top: 5px;
 }
 
-/* Buttons */
 button, input[type="submit"] {
     padding: 10px 15px;
     margin: 5px;
@@ -83,14 +79,12 @@ button:hover, input[type="submit"]:hover {
     opacity: 0.9;
 }
 
-/* Book Information */
 .book-info {
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 20px;
 }
 
-/* Free and Assigned Books */
 .free-book {
     background: #e3fcef;
     padding: 10px;
@@ -107,7 +101,6 @@ button:hover, input[type="submit"]:hover {
     margin-bottom: 20px;
 }
 
-/* Actions Section */
 .actions {
     text-align: center;
 }
