@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="/css/list.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <h1>Список книг</h1>
+    <ul th:each="book : ${books}" class="people-list">
+        <li class="person-item">
+        <a th:href="@{/books/{id}(id=${book.getId()})}" class="person-link"
+           th:text="${book.getName() + ', ' + book.getYear()}"></a>
+        </li>
+        </ul>
+    <hr/>
+    <a class="create-link" th:href="@{/books/new}">Создать книгу</a>
+</ul>
+</body>
+</html>
